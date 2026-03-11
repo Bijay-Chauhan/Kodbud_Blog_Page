@@ -1,0 +1,102 @@
+/* GOOGLE FONT */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+/* RESET */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+
+:root {
+  --primary: #3b82f6;
+  --secondary: #6366f1;
+  --dark: #0f172a;
+  --card: #1e293b;
+  --text: #f8fafc;
+  --text-light: #94a3b8;
+}
+
+/* BODY */
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: var(--dark);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+/* LINKS */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* IMAGES */
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* BUTTON */
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+
+/* CONTAINER */
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* SCROLLBAR */
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+/* PAGE ANIMATION */
+
+body {
+  animation: fadeIn 0.7s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+}

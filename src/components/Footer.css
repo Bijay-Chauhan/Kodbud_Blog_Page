@@ -1,0 +1,42 @@
+/* FOOTER CONTAINER */
+
+.footer {
+  width: 100%;
+  background: #020617;
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+
+  text-align: center;
+
+  padding: 25px 10%;
+
+  margin-top: 60px;
+
+  color: #94a3b8;
+
+  font-size: 14px;
+
+  letter-spacing: 0.5px;
+
+  transition: 0.3s;
+}
+
+/* FOOTER TEXT */
+
+.footer p {
+  margin: 0;
+}
+
+/* HOVER EFFECT */
+
+.footer:hover {
+  color: #cbd5f5;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px;
+    font-size: 13px;
+  }
+}

@@ -1,0 +1,60 @@
+/* CATEGORY CONTAINER */
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+
+  margin-bottom: 25px;
+}
+
+/* CATEGORY BUTTON */
+
+.categories button {
+  padding: 8px 16px;
+
+  border-radius: 20px;
+
+  border: 1px solid rgba(255, 255, 255, 0.1);
+
+  background: #020617;
+
+  color: #e2e8f0;
+
+  font-size: 14px;
+
+  cursor: pointer;
+
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+
+.categories button:hover {
+  background: #3b82f6;
+
+  color: white;
+
+  border-color: #3b82f6;
+
+  transform: translateY(-2px);
+}
+
+/* ACTIVE CLICK EFFECT */
+
+.categories button:active {
+  transform: scale(0.95);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+  .categories {
+    gap: 10px;
+  }
+
+  .categories button {
+    font-size: 13px;
+    padding: 7px 14px;
+  }
+}
